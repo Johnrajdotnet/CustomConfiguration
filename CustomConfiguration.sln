@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomConfiguration", "CustomConfiguration\CustomConfiguration.csproj", "{DB8E59BD-D926-4BE9-B7E8-3D4D252C7FFB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QDALSecure", "QDALSecure\QDALSecure.csproj", "{F4E27C7D-E1B5-4497-AF2A-549F4E338A21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JQProvider", "JQProvider\JQProvider.csproj", "{A821CFDA-D20E-4E8D-A099-8A21988DA04E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{DB8E59BD-D926-4BE9-B7E8-3D4D252C7FFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB8E59BD-D926-4BE9-B7E8-3D4D252C7FFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB8E59BD-D926-4BE9-B7E8-3D4D252C7FFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4E27C7D-E1B5-4497-AF2A-549F4E338A21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4E27C7D-E1B5-4497-AF2A-549F4E338A21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4E27C7D-E1B5-4497-AF2A-549F4E338A21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4E27C7D-E1B5-4497-AF2A-549F4E338A21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A821CFDA-D20E-4E8D-A099-8A21988DA04E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A821CFDA-D20E-4E8D-A099-8A21988DA04E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A821CFDA-D20E-4E8D-A099-8A21988DA04E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A821CFDA-D20E-4E8D-A099-8A21988DA04E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
