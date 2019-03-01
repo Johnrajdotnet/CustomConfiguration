@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QDALSecure", "QDALSecure\QD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JQProvider", "JQProvider\JQProvider.csproj", "{A821CFDA-D20E-4E8D-A099-8A21988DA04E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JQ.Model", "Common.Model\JQ.Model.csproj", "{67246A55-A7EC-4919-A9D0-5931F888A5BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A821CFDA-D20E-4E8D-A099-8A21988DA04E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A821CFDA-D20E-4E8D-A099-8A21988DA04E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A821CFDA-D20E-4E8D-A099-8A21988DA04E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67246A55-A7EC-4919-A9D0-5931F888A5BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67246A55-A7EC-4919-A9D0-5931F888A5BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67246A55-A7EC-4919-A9D0-5931F888A5BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67246A55-A7EC-4919-A9D0-5931F888A5BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

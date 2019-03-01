@@ -5,7 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using JQProvider.DataAcess.DataContract;
-using RTMS.Models.AppCore.DataModel.Application;
+using JQ.Model.Generic;
 
 namespace JQProvider.DataAcess.DataProvider
 {

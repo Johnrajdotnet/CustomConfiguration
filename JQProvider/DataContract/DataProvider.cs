@@ -1,5 +1,5 @@
 ﻿using Dapper;
-using RTMS.Models.AppCore.DataModel.Application;
+using JQ.Model.Generic;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
