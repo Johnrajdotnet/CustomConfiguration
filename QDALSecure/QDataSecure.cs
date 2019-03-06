@@ -15,7 +15,7 @@ namespace QDALSecure
     {
         private string path = ConfigurationManager.AppSettings["AuthorizePath"].ToString() + "QDataSecure.dat";
         private string authorizeDataKey = ConfigurationManager.AppSettings["AuthorizeKey"].ToString();
-        public void WriteSecureData()
+        public void GenerateSecureData()
         {
             string encryptData = Encrypt(authorizeDataKey);
             using (StreamWriter sw = new StreamWriter(File.Open(path, FileMode.Create)))
