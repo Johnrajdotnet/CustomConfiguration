@@ -52,6 +52,7 @@
   <ItemGroup>
     <Compile Include="DataContract\DataProvider.cs" />
     <Compile Include="DataProvider\AppDataProvider.cs" />
+    <Compile Include="DataSecure\JQDataFeed.cs" />
     <Compile Include="DataSecure\JQSecureData.cs" />
     <Compile Include="Enum\DBProviderObject.cs" />
     <Compile Include="Factory\DBProviderFactory.cs" />

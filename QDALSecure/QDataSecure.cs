@@ -1,4 +1,5 @@
-﻿using System;
+﻿using JQProvider.DataSecure;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.IO;
@@ -11,10 +12,14 @@ using System.Threading.Tasks;
 
 namespace QDALSecure
 {
-    public class QDataSecure
+    public class QDataSecure: JQDataFeed
     {
         private string path = ConfigurationManager.AppSettings["AuthorizePath"].ToString() + "QDataSecure.dat";
         private string authorizeDataKey = ConfigurationManager.AppSettings["AuthorizeKey"].ToString();
+
+        public QDataSecure() {
+            authorizeDataKey = GetFeed();
+        }
         public void GenerateSecureData()
         {
             string encryptData = Encrypt(authorizeDataKey);

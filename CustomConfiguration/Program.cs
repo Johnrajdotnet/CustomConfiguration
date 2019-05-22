@@ -16,8 +16,8 @@ namespace CustomConfiguration
         static void Main(string[] args)
         {
             QDataSecure qDataSecure = new QDataSecure();
-            Console.Write(Dns.GetHostAddresses(Environment.MachineName)[0].ToString());
-            Console.WriteLine(Environment.MachineName + ":" + GetIPAddress());
+            //Console.Write(Dns.GetHostAddresses(Environment.MachineName)[0].ToString());
+            //Console.WriteLine(Environment.MachineName + ":" + GetIPAddress());
             qDataSecure.GenerateSecureData();
             AccountManagerDAL accountManagerDAL = new AccountManagerDAL();
 
